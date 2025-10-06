@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tech Fest Projects — Empowering Nigeria with Tech Education</title>
+  <meta name="description" content="Tech Fest Projects is a youth-led NGO bridging Nigeria's tech gap through events, school programs, and ongoing training. Join as a learner, sponsor, or volunteer." />
+
+  <!-- Favicon (emoji fallback) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💡</text></svg>">
+
+  <!-- Project styles (extracted to css/styles.css) -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Content copied from original main.html (styles and scripts moved to separate files)
+       original file: main.html (left untouched) -->
+  <header class="container">
+    <div class="topbar" role="navigation" aria-label="Global">
+      <button class="hamburger" id="openMenu" aria-label="Open menu" aria-controls="mobileNav" aria-expanded="false">
+        <!-- menu icon -->
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="#111827" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <a class="brand" href="#" aria-label="Tech Fest Projects home">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs><rect x="2" y="2" width="9" height="9" rx="2" fill="url(#g)"/><rect x="13" y="2" width="9" height="9" rx="2" fill="#22c55e"/><rect x="2" y="13" width="9" height="9" rx="2" fill="#f59e0b"/><rect x="13" y="13" width="9" height="9" rx="2" fill="#ef4444"/></svg>
+        <span class="brand-title">Tech Fest Projects</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#programs">Programs</a>
+        <a href="#events">Events</a>
+        <a href="#impact">Impact</a>
+        <a href="#partners">Partners</a>
+        <a href="#about">About</a>
+      </nav>
+      <div class="actions">
+        <button class="icon-btn" id="searchBtn" aria-haspopup="dialog" aria-controls="searchDialog" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="#111827" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="#111827" stroke-width="2" stroke-linecap="round"/></svg>
+          <span class="hide-sm">Search</span>
+        </button>
+        <a class="icon-btn" href="#donate" aria-label="Donate or sponsor">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s-7-4.438-7-10A5 5 0 0 1 12 6a5 5 0 0 1 7 5c0 5.562-7 10-7 10Z" stroke="#111827" stroke-width="2"/></svg>
+          <span class="hide-sm">Sponsor</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div class="drawer" id="mobileNav" aria-hidden="true">
+    <div class="drawer-panel" role="dialog" aria-label="Mobile menu">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:10px">
+        <div class="brand" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs><rect x="2" y="2" width="9" height="9" rx="2" fill="url(#g2)"/><rect x="13" y="2" width="9" height="9" rx="2" fill="#22c55e"/><rect x="2" y="13" width="9" height="9" rx="2" fill="#f59e0b"/><rect x="13" y="13" width="9" height="9" rx="2" fill="#ef4444"/></svg>
+          <span class="brand-title">Tech Fest Projects</span>
+        </div>
+        <button class="hamburger" id="closeMenu" aria-label="Close menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M6 18L18 6" stroke="#111827" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <nav style="display:grid; gap:8px; margin-top:10px">
+        <a href="#programs">Programs</a>
+        <a href="#events">Events</a>
+        <a href="#impact">Impact</a>
+        <a href="#partners">Partners</a>
+        <a href="#about">About</a>
+        <a href="#donate" class="btn btn-primary" style="margin-top:8px; justify-content:center">Sponsor now</a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container" id="content">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-wrap">
+        <div>
+          <span class="eyebrow">Inspiring a Generation • SDG 4</span>
+          <h1 id="hero-title">Bridge the tech gap. Build Nigeria’s future.</h1>
+          <p>Tech Fest Projects is a youth-led NGO empowering underserved communities with technology education, reducing unemployment and poverty through practical skills, mentorship, and opportunities.</p>
+          <div class="cta">
+            <a href="#events" class="btn btn-primary">Register for JOSTUM Tech Fest 2.0</a>
+            <a href="#donate" class="btn btn-ghost">Become a sponsor</a>
+            <a href="#volunteer" class="btn btn-ghost">Volunteer</a>
+          </div>
+          <div style="margin-top:14px; display:flex; gap:8px; align-items:center; flex-wrap:wrap">
+            <span class="pill" title="Quality Education">SDG 4</span>
+            <span class="pill" title="Decent Work & Economic Growth">SDG 8</span>
+            <span class="pill" title="Digital inclusion">Digital Literacy</span>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1200&auto=format&fit=crop" alt="Students learning technology at an event" />
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:12px">
+              <div class="card">
+                <strong>150+ learners</strong>
+                <p style="margin:6px 0 0; color:#4b5563; font-size:13px">Reached at the inaugural JOSTUM event in Makurdi.</p>
+              </div>
+              <div class="card">
+                <strong>School outreach</strong>
+                <p style="margin:6px 0 0; color:#4b5563; font-size:13px">Ogun State program featuring AI speaker Alexander Morad.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs grid (Microsoft-style product cards) -->
+    <section class="section" id="programs" aria-labelledby="programs-title">
+      <h2 id="programs-title" style="margin:0 0 14px">Programs</h2>
+      <div class="grid">
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop" alt="Hands-on coding workshop" />
+          <div class="body">
+            <h3>Hands-on Workshops</h3>
+            <p>Intro to coding, design, AI, and data—delivered through bootcamps and campus events.</p>
+          </div>
+          <div class="more"><a class="link" href="#events">Learn more <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg></a></div>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1523247969073-5e48cc5a6b99?q=80&w=1200&auto=format&fit=crop" alt="Mentorship session" />
+          <div class="body">
+            <h3>Mentorship & Follow-ups</h3>
+            <p>WhatsApp classes and in-person mentoring to sustain learning after events.</p>
+          </div>
+          <div class="more"><a class="link" href="#impact">See impact <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg></a></div>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop" alt="Secondary school outreach" />
+          <div class="body">
+            <h3>School Outreach</h3>
+            <p>Early exposure for secondary students in Ogun and beyond, sparking tech curiosity.</p>
+          </div>
+          <div class="more"><a class="link" href="#events">Get involved <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg></a></div>
+        </article>
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop" alt="Innovation hub concept" />
+          <div class="body">
+            <h3>Innovation Hubs</h3>
+            <p>Building safe spaces with devices, internet, and mentors to practice and build.</p>
+          </div>
+          <div class="more"><a class="link" href="#donate">Sponsor a hub <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg></a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Promo band (Microsoft-style large dark card) -->
+    <section class="section" id="events" aria-labelledby="events-title">
+      <div class="band">
+        <div class="container" style="padding:0">
+          <div style="display:grid; grid-template-columns:2fr 1fr; gap:20px; align-items:center">
+            <div>
+              <h2 id="events-title">JOSTUM Tech Fest 2.0</h2>
+              <p style="margin:0 0 10px">Bigger, better, and packed with workshops, panels, and product showcases focused on employability and innovation.</p>
+              <ul style="margin:0 0 14px; padding-left:18px; color:#cbd5e1">
+                <li>Tracks: Web, Design, AI, Data, Entrepreneurship</li>
+                <li>Partners: MTN, Property Aproko (more in progress)</li>
+                <li>Career & funding clinics, demo stage, and mentorship lounges</li>
+              </ul>
+              <div class="cta">
+                <a class="btn btn-primary" href="#register">Register free</a>
+                <a class="btn btn-ghost" href="#volunteer">Volunteer</a>
+                <a class="btn btn-ghost" href="#agenda">View agenda</a>
+              </div>
+            </div>
+            <div>
+              <div class="card" style="background:linear-gradient(120deg,#1f2937,#0b1220); color:#e5e7eb">
+                <strong style="font-size:18px; display:block">Upcoming: Ogun State Schools</strong>
+                <p style="margin:6px 0 0; color:#cbd5e1">Featuring AI speaker Alexander Morad. Bringing early exposure to secondary students through interactive demos and talks.</p>
+                <a class="link" href="#schools" style="margin-top:10px; color:#cbd5e1">Support the outreach <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact cards -->
+    <section class="section" id="impact" aria-labelledby="impact-title">
+      <h2 id="impact-title" style="margin:0 0 14px">Impact</h2>
+      <div class="grid">
+        <article class="product" aria-label="Learners reached">
+          <div class="body">
+            <h3>150+ learners</h3>
+            <p>Introduced to tech at JOSTUM (Northbank, Makurdi) through workshops and panels.</p>
+            <a class="link" href="#stories">Read stories <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg></a>
+          </div>
+        </article>
+        <article class="product" aria-label="Mentorship continuity">
+          <div class="body">
+            <h3>Continuity matters</h3>
+            <p>WhatsApp classes and one‑on‑one tutoring plans keep momentum after the big day.</p>
+            <a class="link" href="#mentorship">Join a cohort <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg></a>
+          </div>
+        </article>
+        <article class="product" aria-label="Devices and access">
+          <div class="body">
+            <h3>Access challenges</h3>
+            <p>Many students lack laptops and internet. Your sponsorship closes that gap.</p>
+            <a class="link" href="#donate">Fund devices <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg></a>
+          </div>
+        </article>
+        <article class="product" aria-label="Nation building">
+          <div class="body">
+            <h3>Nation building</h3>
+            <p>Reducing unemployment and insecurity by creating employable, ethical tech talent.</p>
+            <a class="link" href="#about">How we work <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="section" id="partners" aria-labelledby="partners-title">
+      <h2 id="partners-title" style="margin:0 0 14px">Partners & supporters</h2>
+      <div class="logos">
+        <span class="logo-pill" aria-label="MTN">MTN</span>
+        <span class="logo-pill" aria-label="Property Aproko">Property Aproko</span>
+        <span class="logo-pill" aria-label="JOSTUM">JOSTUM</span>
+        <span class="logo-pill" aria-label="Community mentors">Community mentors</span>
+      </div>
+      <div style="margin-top:14px" class="cta">
+        <a class="btn btn-primary" href="#donate">Become a sponsor</a>
+        <a class="btn btn-ghost" href="#media-kit">Download media kit</a>
+      </div>
+    </section>
+
+    <!-- About / Microsoft-like text section -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <h2 id="about-title" style="margin:0 0 14px">About Tech Fest Projects</h2>
+      <div class="card" style="padding:22px">
+        <p style="margin:0 0 10px">We are a non-governmental, youth-led movement making tech education accessible in underserved Nigerian communities. Our programs align with SDG 4 (Quality Education) and SDG 8 (Decent Work & Economic Growth). We run high‑energy events, follow‑up mentorship, and school outreach to build a pipeline of employable talent and ethical innovators.</p>
+        <ul style="margin:0; padding-left:18px; color:#4b5563">
+          <li>Bridge the digital divide with practical, hands‑on learning</li>
+          <li>Forge corporate partnerships for devices, connectivity, and hubs</li>
+          <li>Create measurable pathways to jobs, startups, and global opportunities</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA strip -->
+    <section class="section" id="donate" aria-labelledby="cta-title">
+      <div class="hero" style="background:linear-gradient(120deg,#e0e7ff,#f5f3ff,#fff)">
+        <div class="hero-wrap">
+          <div>
+            <span class="eyebrow">Support the mission</span>
+            <h2 id="cta-title" style="margin:10px 0 8px">Your sponsorship changes real lives</h2>
+            <p>Fund devices, data, and safe learning spaces. Get brand visibility, talent access, and community impact.</p>
+            <div class="cta">
+              <a class="btn btn-primary" href="#">Sponsor a cohort</a>
+              <a class="btn btn-ghost" href="#">Download pitch deck</a>
+              <a class="btn btn-ghost" href="#">Contact partnerships</a>
+            </div>
+          </div>
+          <div class="card">
+            <strong>What your support covers</strong>
+            <ul style="margin:6px 0 0; padding-left:18px; color:#4b5563">
+              <li>Laptops, connectivity, and hub utilities</li>
+              <li>Facilitator stipends and learning materials</li>
+              <li>Student transport and accessibility needs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid" aria-label="Footer">
+      <div>
+        <h4>Tech Fest Projects</h4>
+        <a href="#about">About</a>
+        <a href="#impact">Impact</a>
+        <a href="#partners">Partners</a>
+        <a href="#donate">Sponsor</a>
+      </div>
+      <div>
+        <h4>Programs</h4>
+        <a href="#programs">Workshops</a>
+        <a href="#programs">Mentorship</a>
+        <a href="#programs">School outreach</a>
+        <a href="#programs">Innovation hubs</a>
+      </div>
+      <div>
+        <h4>Events</h4>
+        <a href="#events">JOSTUM Tech Fest 2.0</a>
+        <a href="#events">Ogun State schools</a>
+        <a href="#events">Panels & webinars</a>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <a href="#media-kit">Media kit</a>
+        <a href="#">Press</a>
+        <a href="#">Volunteer guide</a>
+      </div>
+      <div>
+        <h4>Get involved</h4>
+        <a href="#register">Register</a>
+        <a href="#volunteer">Volunteer</a>
+        <a href="#donate">Sponsor</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="#">hello@techfest.ng</a>
+        <a href="#">Partnerships</a>
+        <a href="#">Careers</a>
+      </div>
+    </div>
+    <div class="container copyright">
+      <span>© <span id="year"></span> Tech Fest Projects. All rights reserved.</span>
+      <nav aria-label="Legal">
+        <a href="#" style="margin-right:12px">Privacy</a>
+        <a href="#">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Search dialog (simple) -->
+  <dialog id="searchDialog" style="border:none; border-radius:16px; padding:0; width:min(680px,90vw); box-shadow:var(--shadow)">
+    <form method="dialog" style="padding:18px; display:grid; gap:12px">
+      <label for="q" style="font-weight:600">Search Tech Fest</label>
+      <input id="q" name="q" type="search" placeholder="Search programs, events, resources" aria-label="Search" style="border:1px solid #e5e7eb; border-radius:12px; padding:12px; outline:2px solid transparent; outline-offset:2px"/>
+      <div style="display:flex; justify-content:flex-end; gap:10px">
+        <button class="btn btn-ghost" value="cancel">Cancel</button>
+        <button class="btn btn-primary" value="search">Search</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Project scripts (extracted to js/script.js) -->
+  <script src="js/script.js"></script>
+</body>
+</html>
